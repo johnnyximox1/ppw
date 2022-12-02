@@ -4,23 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Property Preservation</title>
     <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/style.css">
 </head>
 
 <body>
      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Flourish</a>
+            <a class="navbar-brand" href="../index.html">Flourish</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -29,16 +29,16 @@
                         </a>
                         <ul class="dropdown-menu">
 
-                            <li><a class="dropdown-item" href="securing.html">Securing</a></li>
-                            <li><a class="dropdown-item" href="lawnmaintenance.html">Lawn Maintenance </a></li>
+                            <li><a class="dropdown-item" href="../pages/securing.html">Securing</a></li>
+                            <li><a class="dropdown-item" href="../pages/lawnmaintenance.html">Lawn Maintenance </a></li>
                             <li><a class="dropdown-item" href="#">Maid Service</a></li>
-                            <li><a class="dropdown-item" href="debryremoval.html">Debris Removal</a></li>
+                            <li><a class="dropdown-item" href="../pages/debryremoval.html">Debris Removal</a></li>
                             <li><a class="dropdown-item" href="#">Eviction</a></li>
                             <li><a class="dropdown-item" href="#">Snow Removal</a></li>
-                            <li><a class="dropdown-item" href="winterization.html">Winterization</a></li>
-                            <li><a class="dropdown-item" href="bidapproval.html">Bid Approval</a></li>
-                            <li><a class="dropdown-item" href="door.html">Door</a></li>
-                            <li><a class="dropdown-item" href="codeviolation.html">Code Violaiton</a></li>
+                            <li><a class="dropdown-item" href="../pages/winterization.html">Winterization</a></li>
+                            <li><a class="dropdown-item" href="../pages/bidapproval.html">Bid Approval</a></li>
+                            <li><a class="dropdown-item" href="../pages/door.html">Door</a></li>
+                            <li><a class="dropdown-item" href="../pages/codeviolation.html">Code Violaiton</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -52,17 +52,23 @@
         </div>
     </nav>
 
-    <div id="section" class="section section-one pt-5">
-        <div class="container-fluid">
-            <div class="row ">
-            <embed src="assetpdf/FasciaSoffit.pdf" width="800px" height="1080px" />
+
+
+<div id="section" class="section section-one pt-5">
+        <div class="container">
+            <div class="row py-5 justify-content-center">
+               <div class="col-lg-8">
+                     <div class="text-center">
+                    <img src="../img/image_2022_11_15T22_13_39_538Z.png" alt="door" class="img-fluid" >
+               </div>
+               </div>
             </div>
-
-
-        </div>
     </div>
+    </div>
+
+
     <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>-->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script>
         const dropdownElementList = document.querySelectorAll('.dropdown-toggle')
         const dropdownList = [...dropdownElementList].map(dropdownToggleEl => new bootstrap.Dropdown(dropdownToggleEl))
